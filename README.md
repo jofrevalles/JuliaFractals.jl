@@ -1,2 +1,3 @@
-# JuliaFractals
-Where Julia set fractals meet the Julia language. JuliaFractals.jl is a Julia library for generating and visualizing Julia set fractals with ease and high performance.
+# JuliaFractals.jl
+
+A library for exploring Julia set fractals using the Julia programming language, because when life gives you Julias, you make Julia set fractals with Julia!
