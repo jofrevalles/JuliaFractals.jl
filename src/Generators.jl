@@ -1,3 +1,4 @@
+#TODO: Refactor this file and the generate methods
 function generate_set(method::Symbol = :smooth, width::Int = 800, height::Int = 800, x_range=(-2.0, 2.0), y_range=(-2.0, 2.0), max_iter::Int = 100, trap_radius::Float64 = 0.5; kwargs...)
     if method == :julia
         return julia(width, height, x_range, y_range, max_iter; kwargs...)
