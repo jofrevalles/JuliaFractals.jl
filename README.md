@@ -3,7 +3,7 @@
 A library for exploring Julia set fractals using the Julia programming language, because when life gives you Julias, you make Julia set fractals with Julia!
 
 <div style="text-align: center;">
-    <img src="./images/examples.png" alt="Example images" style="display: inline-block; margin: 0 5px;" />
+    <img src="./images/example.png" alt="Example images" style="display: inline-block; margin: 0 5px;" />
 </div>
 
 ## Installation
@@ -45,3 +45,4 @@ This project was inspired by and uses techniques from the following sources:
 4. Sims, K. (1992). Fractal Attraction: A Persistent Illusion. Computer Graphics, 26(2), 148-149.
 5. Shiffman, D. (2012). The Nature of Code.
 6. Braverman, M. (1999). Fractal Explorer.
+
