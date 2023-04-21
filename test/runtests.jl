@@ -2,5 +2,5 @@ using Test
 using JuliaFractals
 
 @testset "Unit tests" verbose = true begin
-    include("Generators_test.jl")
+    include("FractalGenerators_test.jl")
 end
