@@ -13,7 +13,6 @@ function visualize(img::Array{Float64, 2}, backend::Symbol = :makie; cmap=:virid
 end
 
 function plots_visualize(img::Array{Float64, 2}; cmap=:viridis)
-    # TODO: remove the axis
     img_normalized = (img .- minimum(img)) ./ (maximum(img) - minimum(img))
     return Plots.heatmap(img_normalized, color=cgrad(cmap), legend=false, axis=false, border=:none, size=(800, 800), dpi=100, aspect_ratio=:equal)
 end
