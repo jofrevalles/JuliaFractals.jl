@@ -33,7 +33,7 @@ img = generate_image(julia_fractal, style, w, h, (-2.0, 2.0), (-2.0, 2.0), max_i
 cmap = :algae
 f = visualize(img, :makie; cmap=cmap)
 ```
-This example generates a Julia set fractal with the angle coloring method and visualizes it using the Makie backend.
+This example generates a Julia set fractal with the smooth method and visualizes it using the Makie backend.
 
 ## References
 
